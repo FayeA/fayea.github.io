@@ -1,0 +1,8 @@
+# Site settings
+title: Faye A
+description: > Faye A's website
+url: "http://fayea.github.io"
+github_username:  FayeA
+
+# Build settings
+markdown: kramdown

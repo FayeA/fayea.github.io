@@ -1,0 +1,38 @@
+* {
+	font-family: sans-serif;
+	color: #333;
+}
+h1.site-title{
+	color: #666;
+	font-weight: bold;
+	font-size: 28px;
+}
+h3{
+	font-weight: bold;
+}
+a:hover {
+	color: #ff6600;
+}
+.orange {
+	color: #ff6600;
+}
+.header {
+	border-bottom: 2px solid #666;
+}
+.navigation {
+	color: #666;
+}
+.post-meta {
+	font-weight: normal;
+}
+ul.blog-items {
+	list-style-type: none;
+	margin-left: 0;
+}
+.blog-title {
+	margin-right: 1em;
+	margin-left: 0;
+}
+.footer {
+	border-top: 2px solid #666;
+}

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+      <div class="body">
+      	<h2>Recent blog posts</h2>
+      	{% for post in site.posts limit:3 %}
+        <div class="blog">
+         <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} | {{ post.author }}{% endif %}{% if post.meta %} | {{ post.meta }}{% endif %}</p>
+ 		  <article class="post-content">
+    		{{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+  		  </article>
+        </div>
+        {% endfor %}
+      </div>
+
+
+<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

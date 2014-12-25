@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog Archive
+permalink: /blog/
+---
+
+      <div class="body">
+        <h2>Blog Archive</h3>
+          {% for post in site.posts %}
+          <ul class="blog-items">
+            <li><a class="blog-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="blog-date post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></li>
+          </ul>
+          {% endfor %}
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+
+      
