@@ -18,25 +18,16 @@ body{
     Header
 --------------*/
 .header {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 2rem;
-	margin-top: 2rem;
-	padding-bottom: 1rem;
-}
-h1.site-title{
-	margin-top: 0;
-	margin-bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 3px;
 }
 ul.navigation {
 	list-style-type: none;
-	display: inline;
-	min-width: 200px;
-	margin-top: 1rem;
-	margin-bottom: 0;
+	padding-top: 17px;
+	text-align: right;
 }
 li.navigation {
-	display: inline-block;
+	display: inline;
 	margin-left: .5rem;
 	margin-right: .5rem;
 }
@@ -51,23 +42,6 @@ li.navigation {
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 }
-/*--------------------
-   Blog (archive)
-
-.blog-item{
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 1rem;
-}
-.blog-title  {
-	width: 50%;
-	text-align: left;
-}
-.blog-date {
-	width: 50%;
-	text-align: right;
-}
----------------------*/
 /*--------------------
 Index (recent posts)
 ---------------------*/
