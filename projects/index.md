@@ -11,4 +11,4 @@ permalink: /projects/
  - [http://fayea.github.io/200-fier/](http://fayea.github.io/200-fier/)
  - [https://github.com/FayeA/200-fier](https://github.com/FayeA/200-fier)
 
-![200-fier screenshot](../images/200-fier-screenshot.png)
+![200-fier screenshot](/images/200-fier-screenshot.png)
