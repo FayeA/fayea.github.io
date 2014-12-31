@@ -10,3 +10,4 @@ permalink: /projects/
  - Click to copy (Internet Explorer only)
  - [http://fayea.github.io/200-fier/](http://fayea.github.io/200-fier/)
  - [https://github.com/FayeA/200-fier](https://github.com/FayeA/200-fier)
+
